@@ -114,6 +114,7 @@ public class CloseEvent extends EventObject
 	public CloseEvent(final Object source, final int initiator, final String reason)
 	{
 		super(source);
+	System.out.println("TEST");
 		this.initiator = initiator;
 		msg = reason;
 	}
